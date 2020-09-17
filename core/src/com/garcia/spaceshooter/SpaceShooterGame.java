@@ -10,7 +10,7 @@ public class SpaceShooterGame extends Game {
 	GameScreen gameScreen;
 	GameOverScreen gameOverScreen;
 
-	public static Random random = new Random(); // SpaceShooterGame.random
+	public static Random random = new Random(); // SpaceShooterGame.random haha github
 
 	@Override
 	public void create () {
