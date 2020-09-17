@@ -17,7 +17,7 @@ android {
         exclude 'META-INF/robovm/ios/robovm.xml'
     }
     defaultConfig {
-        applicationId "com.garcia.spaceshooter"
+        applicationId "com.garcia.mariobros"
         minSdkVersion 14
         targetSdkVersion 30
         versionCode 1
@@ -86,7 +86,7 @@ task run(type: Exec) {
     }
 
     def adb = path + "/platform-tools/adb"
-    commandLine "$adb", 'shell', 'am', 'start', '-n', 'com.garcia.spaceshooter/com.garcia.spaceshooter.AndroidLauncher'
+    commandLine "$adb", 'shell', 'am', 'start', '-n', 'com.garcia.mariobros/com.garcia.mariobros.AndroidLauncher'
 }
 
 eclipse.project.name = appName + "-android"
