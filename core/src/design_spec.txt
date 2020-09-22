@@ -1,0 +1,35 @@
+TODO:
+    - ships:
+        - player ship base stats: --  upgrades for each stat
+            - dmg : 1 -- +1 +1 +2 +2 +3 +3 = 13 -6 upgrades
+            - health : 3 -- +1 +1 +2 +2 +3 +3 = 15 -6 upgrades
+            - shield : 0 -- +1 +1 +2 +2 +3 +3 = 12 -6 upgrades
+            - speed : 30 -- +4 +4 +6 +6 +8 +8 = 66 -6 upgrades
+            - laser speed : 45 -- +5 +5 +7 +7 +9 +9 =  -6 upgrades
+            - fire rate : 1f -- -0.1 -0.1 -0.15 -0.15 -.2 = .3 -5 upgrades
+
+            - enemy ships up to level 5:
+                - level01:
+                    - ship01:
+                        - texture: enemy black 1
+                        - dmg: 2
+                        - shield: 1
+                        - health: 2
+                        - speed: 32
+                        - laser speed: 44
+                        - fire rate: 0.8f
+        - ship health with mini ship icons
+            -
+        - ship shield with mini shield icons
+    - wave voiceover
+    - settings menu
+    - pause menu
+    - upgrade ship menu -- pts system?
+        - player plays waves to gain points to upgrade starting ship
+            - only accessible in titleScreen and gameOverScreen -- maybe pause menu eventually(during pre-wave)?
+            - current ship var -- get current stats
+            - points var
+            - text buttons for upgrade stats
+            - cost to upgrade increases over time
+            - play button
+    - controls display

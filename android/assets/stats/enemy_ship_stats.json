@@ -1,0 +1,54 @@
+//put this file in the assets folder, inside a directory 'galaga'
+{
+    // the keys are the names of the enum in EnemyShipFactory.ShipLevel
+    LEVEL_1: {
+        //the values are the EnemyShipStats objects
+        width: 42,
+        height: 42,
+        damage: 42,
+        texture: some_texture_name
+    },
+    LEVEL_2: {
+        //the values are the EnemyShipStats objects
+        width: 42,
+        height: 42,
+        damage: 42,
+        texture: some_texture_name
+    },
+    LEVEL_3: {
+        //the values are the EnemyShipStats objects
+        width: 42,
+        height: 42,
+        damage: 42,
+        texture: some_texture_name
+    }
+}
+
+
+
+//        if (waveCounter >= 1 && waveCounter <= 2) {
+//            return new EnemyShip(StarshooterGame.random.nextFloat() * (WORLD_WIDTH - 10) + 5, WORLD_HEIGHT - 5, 25, 2, 1, 0, 34,45,0.8f, Assets.instance.enemyShips.ENEMY_BLACK_01, Assets.instance.lasers.LASER_BLUE_05,6f,.4f);
+//        } else if (waveCounter >= 3 && waveCounter <= 6) {
+//            return new EnemyShip(StarshooterGame.random.nextFloat() * (WORLD_WIDTH - 10) + 5, WORLD_HEIGHT - 5, 50, 4, 2, 1, 38,45,0.8f, Assets.instance.enemyShips.ENEMY_BLUE_03, Assets.instance.lasers.LASER_RED_05, 6f, .4f);
+//        }else if  (waveCounter >= 7 && waveCounter <= 10) {
+//            return new EnemyShip(StarshooterGame.random.nextFloat() * (WORLD_WIDTH - 10) + 5, WORLD_HEIGHT - 5, 75, 4, 3, 1, 42,50,0.8f, Assets.instance.enemyShips.ENEMY_BLACK_02, Assets.instance.lasers.LASER_BLUE_04, 6f, .4f);
+//        }else if  (waveCounter >= 11 && waveCounter <= 14) {
+//            return new EnemyShip(StarshooterGame.random.nextFloat() * (WORLD_WIDTH - 10) + 5, WORLD_HEIGHT - 5, 100, 6, 4, 2, 45,54,0.7f, Assets.instance.enemyShips.ENEMY_GREEN_03, Assets.instance.lasers.LASER_BLUE_05, 6f, .4f);
+//        }else if  (waveCounter >= 15 && waveCounter <= 18) {
+//            return new EnemyShip(  125, 6, 6, 2, 48,58,0.7f, Assets.instance.enemyShips.ENEMY_RED_04, Assets.instance.lasers.LASER_GREEN_03, 6f, .4f);
+//        }else if  (waveCounter >= 19 && waveCounter <= 24) {
+//            return new EnemyShip(StarshooterGame.random.nextFloat() * (WORLD_WIDTH - 10) + 5, WORLD_HEIGHT - 5, 125, 8, 7, 3, 50,60,0.7f, Assets.instance.enemyShips.ENEMY_GREEN_04, Assets.instance.lasers.LASER_RED_03, 6f, .4f);
+//        }
+//
+//        else if  (waveCounter >= 25 && waveCounter <= 28){
+//            return new EnemyShip(StarshooterGame.random.nextFloat() * (WORLD_WIDTH - 10) + 5, WORLD_HEIGHT - 5, 125, 8, 8, 3, 50,60,0.7f, Assets.instance.enemyShips.ENEMY_BLACK_02, Assets.instance.lasers.LASER_RED_05,6f,.4f);
+//        }else if  (waveCounter >= 29 && waveCounter <= 32) {
+//            return new EnemyShip(StarshooterGame.random.nextFloat() * (WORLD_WIDTH - 10) + 5, WORLD_HEIGHT - 5, 150, 8, 9, 3, 50,60,0.7f, Assets.instance.enemyShips.ENEMY_BLACK_04, Assets.instance.lasers.LASER_GREEN_13, 6f, .4f);
+//        }else if  (waveCounter >= 33 && waveCounter <= 35) {
+//            return new EnemyShip(StarshooterGame.random.nextFloat() * (WORLD_WIDTH - 10) + 5, WORLD_HEIGHT - 5, 150, 9, 10, 4, 54,64,0.6f, Assets.instance.enemyShips.ENEMY_RED_02, Assets.instance.lasers.LASER_BLUE_12, 6f, .4f);
+//        }else if  (waveCounter >= 36 && waveCounter <= 39) {
+//            return new EnemyShip(StarshooterGame.random.nextFloat() * (WORLD_WIDTH - 10) + 5, WORLD_HEIGHT - 5, 175, 9, 12, 4, 58,65,0.6f, Assets.instance.enemyShips.ENEMY_BLACK_05, Assets.instance.lasers.LASER_BLUE_10, 6f, .4f);
+//        }else if  (waveCounter >= 40 && waveCounter <= 45) {
+//            return new EnemyShip(StarshooterGame.random.nextFloat() * (WORLD_WIDTH - 10) + 5, WORLD_HEIGHT - 5, 175, 10, 12, 5, 60,68,0.6f, Assets.instance.enemyShips.ENEMY_GREEN_05, Assets.instance.lasers.LASER_RED_03, 6f, .4f);
+//        }else if  (waveCounter >= 6 && waveCounter <= 49) {
+//            return new EnemyShip(StarshooterGame.random.nextFloat() * (WORLD_WIDTH - 10) + 5, WORLD_HEIGHT - 5, 200, 12, 14, 5, 64,70,0.5f, Assets.instance.enemyShips.ENEMY_RED_05, Assets.instance.lasers.LASER_GREEN_12, 6f, .4f);
