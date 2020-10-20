@@ -38,7 +38,7 @@ public class UpgradeScreen extends ScreenTemplate { // checking if it can even b
     TextButton menuButton;
     TextButton playButton;
 
-    Coin coinAnimation;
+    Coin coinAnimation; // beta branch
 
     private int shipLevel;  // current ship level ... changes--texture, max stats,
     private int shipLevelMultiplier; //
